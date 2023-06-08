@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background image for the hero section */
+  .hero-image {
+    background-image: url('./img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px; /* Adjust the height as needed */
+    position: relative;
+  }
+  
+  /* Add semi-transparent overlay for the hero section */
+  .overlay {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 50%;
+    height: 40%;
+    background-color: rgba(208, 76, 76, 0.501);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.overlay p {
+    color: white;
+    font-size: 24px;
+    text-align:center;
+}
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
